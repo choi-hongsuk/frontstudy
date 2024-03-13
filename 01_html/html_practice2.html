@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <ul>
+    <li>운동
+      <ul type="circle">
+        <li>축구
+          <ul type="square">
+            <li>공격수</li>
+            <li>수비수</li>
+            <li>골키퍼</li>
+          </ul>
+        </li>
+        <li>야구
+          <ul type="square">
+            <li>투수</li>
+            <li>포수</li>
+            <li>야수</li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+ </ul>
+<hr>
+ <ul type="square">준비물
+  <li>김치</li>
+  <li>참치</li>
+ </ul>
+ <ol>조리법
+  <li>물을 500cc 넣고 끓인다.</li>
+  <li>김치를 넣는다.</li>
+  <li>참치를 넣는다.</li>
+ </ol>
+<hr>
+<table border="1">
+  <tbody>
+    <tr>
+      <td rowspan="5">1</td>
+      <td>2</td>
+      <td>3</td>
+      <td>4</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>7</td>
+      <td>8</td>
+      <td>9</td>
+    </tr>
+    <tr>
+      <td rowspan="3">10</td>
+      <td>11</td>
+      <td>12</td>
+      <td rowspan="2">13</td>
+    </tr>
+    <tr>
+      <td>14</td>
+      <td>15</td>
+    </tr>
+    <tr>
+      <td>16</td>
+      <td>17</td>
+      <td>18</td>
+    </tr>
+    <tr>
+      <td colspan="5">19</td>
+    </tr>
+  </tbody>
+</table>
+ 
+<table border="1">
+  <tbody>
+    <tr>
+      <td colspan="4">1</td>
+      <td rowspan="7">2</td>
+    </tr>
+    <tr>
+      <td rowspan="5">3</td>
+      <td rowspan="4">4</td>
+      <td colspan="2">5</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td rowspan="4">7</td>
+    </tr>
+    <tr>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td>9</td>
+    </tr>
+    <tr>
+      <td colspan="2">10</td>
+    </tr>
+    <tr>
+      <td colspan="4">11</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr>
+
+<table border="1">
+  <tbody>
+    <tr>
+      <td colspan="2" align="center"><b>이름</b></td>
+      <td colspan="1" align="center"><b>나이</b></td>
+      <td colspan="5" align="center"><b>주소</b></td>
+    </tr>
+    <tr>
+      <td colspan="2">홍길동</td>
+      <td colspan="1">20세</td>
+      <td colspan="5">서울시 마포구 노고산동</td>
+    </tr>
+    <tr>
+      <td colspan="2" align="center"><b>특기</b></td>
+      <td colspan="6">먹기</td>
+    </tr>
+    <tr>
+      <td colspan="2" rowspan="2" align="center"><b>신체</b></td>
+      <td colspan="6">180.0cm</td>
+    </tr>
+    <tr>
+      <td colspan="6">83kg</td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+<table border="1">
+  <caption align="center"> 우리펜션 객실안내</caption>
+  <tbody>
+    <tr>
+      <td colspan="2.5" align="center"><b>방이름</b></td>
+      <td colspan="2.5" align="center"><b>고객구분</b></td>
+      <td colspan="1.5" align="center"><b>정원</b></td>
+      <td colspan="2.5" align="center"><b>가격</b></td>
+    </tr>
+    <tr>
+      <td colspan="2.5">콜로라도</td>
+      <td colspan="2.5">여성 전용</td>
+      <td colspan="1.5" rowspan="3">4인실</td>
+      <td colspan="2.5" rowspan="4">100,000원</td>
+    </tr>
+    <tr>
+      <td colspan="2.5" rowspan="2">아레나도</td>
+      <td colspan="2.5">가족용</td>
+    </tr>
+    <tr>
+      <td colspan="2.5">커플용</td>
+    </tr>
+    <tr>
+      <td colspan="2.5">엘레나</td>
+      <td colspan="2.5">커플 전용</td>
+      <td colspan="1.5">2인실</td>
+    </tr>
+    <tr>
+      <td colspan="9" align="center"><b>6월 15일까지 전 객실 50% 할인</b></td>
+    </tr>
+  </tbody>
+</table>
+
+<hr>
+
+아이디 <input type="text" placeholder="아이디"> <button type="submit">중복확인</button> <br>
+비밀번호 <input type="password" placeholder="새 비밀번호"> <br>
+비밀번호 확인 <input type="password" placeholder="비밀번호 확인"> <br>
+이메일 <input type="text" placeholder="이메일"> @ <input type="text" placeholder="직접 입력 가능" list="email"> <br>
+<datalist id="email">
+  <option>gmail.com</option>
+  <option>naver.com</option>
+  <option>daum.net</option>
+</datalist>
+
+<br>
+
+<fieldset>
+  <legend>성별</legend>
+  <input type="radio" name="gender" id="man"><label for="man">남자</label>
+  <input type="radio" name="gender" id="woman"><label for="woman">여자</label>
+</fieldset>
+<br>
+<fieldset>
+  <legend>관심</legend>
+  <input type="checkbox" name="interest"> IT
+  <input type="checkbox" name="interest"> 경영 <br>
+  <input type="checkbox" name="interest"> 금융
+  <input type="checkbox" name="interest"> 제조 <br>
+  <input type="checkbox" name="interest"> 서비스
+  <input type="checkbox" name="interest"> 기타
+</fieldset>
+
+거주지 <select>
+  <option>::선택하세요::</option>
+  <option>서울</option>
+  <option>대전</option>
+  <option>대구</option>
+  <option>부산</option>
+  <option>인천</option>
+</select> <input type="text"> <br>
+
+<div>자기소개</div>
+<textarea cols="40" rows="5" placeholder="200자 이내 간단히 작성"></textarea> <br>
+
+이력서 <input type="file"> <br>
+제출일 <input type="date"> <br>
+<button type="submit">제출</button>
+<button type="reset">다시입력</button>
+
+</body>
+</html>
